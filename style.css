@@ -1,0 +1,155 @@
+.container{
+    scroll-behavior: smooth;
+    font-family: "Open Sans";
+}
+.home{
+    background-color: #FFFFFF;
+}
+.navbar {
+    background-color: #1f1135;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 50px;
+  }
+  
+  .navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+.mainimg{
+    width: 1000px;
+    height: 700px;
+    align-self: center;
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.homeimg{
+    height: 300px;
+    width: 500px;
+}
+
+.gallery div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery img{
+    height: 300px;
+    width: 430px;
+    margin: 5px;
+    box-shadow: 3px 3px 10px #1f1135;
+    border-radius: 5px;
+}
+.timings {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timings table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .timings th, .timings td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .timings th {
+    background-color: #1f1135;
+    color: #fff;
+  }
+  
+  .timings td {
+    background-color: #f7f7f7;
+  }
+
+.faqs-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faqs-section h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .faqs-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .faqs-section li {
+    margin-bottom: 20px;
+  }
+  
+  .faqs-section li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .faqs-section a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .faqs-section a:hover {
+    color: #23527c;
+  }
+  
+  .faqs-section .question {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .faqs-section .answer {
+    font-size: 16px;
+    color: #666;
+  }
+
+  button {
+    background-color: #1f1135;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin: 0;
+  }
+  
+  button:hover {
+    background-color: #422571; 
+  }
+  
+  button a {
+    text-decoration: none; 
+    color: #ffffff; 
+  }
